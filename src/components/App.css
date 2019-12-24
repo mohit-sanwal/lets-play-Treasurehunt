@@ -1,0 +1,27 @@
+
+.btn_click {
+  width: 135px;
+  height: 51px;
+}
+
+
+.column {
+    float: left;
+    padding: 10px;
+    border: 1px solid #000;
+
+}
+
+.column.solid {border-style: solid;}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.pet {
+  color : red;
+}
